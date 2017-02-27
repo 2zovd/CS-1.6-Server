@@ -1,6 +1,10 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.nav {display: block !important;}
+}
+
 @media only screen and (max-width : 1200px) {
 	h1 img {
 	    width: 100%;

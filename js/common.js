@@ -13,7 +13,7 @@ $(document).ready(function() {
 	});
 
 	$('.header .nav ul li a').click(function() {
-		$('.header .nav').fadeOut(600);
+		/*$('.header .nav').fadeOut(600);*/
 		$(".sandwich").removeClass("active");
 	});
 
