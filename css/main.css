@@ -479,10 +479,10 @@ h4 {
       color: #4f5660; }
   .footer .nav a {
     color: #4f5660; }
-  .footer .nav li:after {
-    background-image: linear-gradient(to left, #4f5660, #4f5660);
-    background-image: -webkit-linear-gradient(left, #4f5660, #4f5660);
-    background-image: -o-linear-gradient(left, #4f5660, #4f5660); }
+    .footer .nav a:after {
+      background-image: linear-gradient(to left, #4f5660, #4f5660);
+      background-image: -webkit-linear-gradient(left, #4f5660, #4f5660);
+      background-image: -o-linear-gradient(left, #4f5660, #4f5660); }
 
 .copyrights {
   font-size: 14px;
@@ -538,6 +538,9 @@ h4 {
   background: #fff;
   border: none;
   border-radius: 4px 4px 4px 4px;
+  transition: -webkit-transform 0.5s, top 0.2s;
+  transition: -ms-transform 0.5s, top 0.2s;
+  transition: -o-transform 0.5s, top 0.2s;
   transition: top 0.2s, -webkit-transform 0.5s;
   transition: transform 0.5s, top 0.2s;
   transition: transform 0.5s, top 0.2s, -webkit-transform 0.5s; }
